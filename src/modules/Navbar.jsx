@@ -14,7 +14,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <div className={`navbar-controls`}>
+        <div className={"navbar-controls"}>
           <a href="" type="button" className="navbar-button">
             <i className="fa-solid fa-house"></i>
           </a>
