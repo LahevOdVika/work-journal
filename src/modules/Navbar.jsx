@@ -15,32 +15,32 @@ export const Navbar = () => {
     <>
       <div className="navbar">
         <div className={"navbar-controls"}>
-          <a href="" type="button" className="navbar-button">
+          <a href="/" className="navbar-button">
             <i className="fa-solid fa-house"></i>
           </a>
-          <a type="button" className="navbar-button" onClick={handleOpening}>
+          <button type="button" className="navbar-button" onClick={handleOpening}>
             <i className="fa-solid fa-bars"></i>
-          </a>
+          </button>
         </div>
         <div className={`navbar-content ${state}`}>
           <ul className="navbar-list">
             <li className="navbar-item">
-              <a href="#" className="navbar-link">
+              <button className="navbar-link">
                 <i className={"fa-solid fa-briefcase"}></i>
                 <span>My Work</span>
-              </a>
+              </button>
             </li>
             <li className="navbar-item">
-              <a href="#" className="navbar-link">
+              <button className="navbar-link">
                 <i className={"fa-solid fa-diagram-project"}></i>
                 <span>My Projects</span>
-              </a>
+              </button>
             </li>
             <li className="navbar-item">
-              <a href="#" className="navbar-link">
+              <button className="navbar-link">
                 <i className="fa-solid fa-address-book"></i>
                 <span>Contact</span>
-              </a>
+              </button>
             </li>
           </ul>
         </div>
