@@ -12,7 +12,6 @@ export const Navbar = () => {
   }
 
   return (
-    <>
       <div className="navbar">
         <div className={"navbar-controls"}>
           <a href="/" className="navbar-button">
@@ -45,7 +44,6 @@ export const Navbar = () => {
           </ul>
         </div>
       </div>
-    </>
   );
 };
 
