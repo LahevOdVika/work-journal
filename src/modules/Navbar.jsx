@@ -1,23 +1,22 @@
-import { useState } from "react";
+import { useState, useCallback } from 'react';
 
 export const Navbar = () => {
   const [state, setState] = useState("closed");
 
-  function handleOpening() {
+  const handleOpening = useCallback(() => {
     if (state === "closed") {
       setState("open");
     } else {
       setState("closed");
     }
-  }
+  }, [state]);
 
   return (
     <div className="navbar">
       <div className={"navbar-controls"}>
         <a href="/" className="navbar-button">
-          <i className="fa-solid fa-house" />
+          <i className={"fa-solid fa-house"} />
         </a>
-        {/* skipcq */}
         <button type="button" className="navbar-button" onClick={handleOpening}>
           <i className="fa-solid fa-bars" />
         </button>
