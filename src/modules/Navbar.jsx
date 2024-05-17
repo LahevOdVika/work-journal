@@ -16,29 +16,29 @@ export const Navbar = () => {
       <div className="navbar">
         <div className={"navbar-controls"}>
           <a href="/" className="navbar-button">
-            <i className="fa-solid fa-house"></i>
+            <i className="fa-solid fa-house" />
           </a>
           <button type="button" className="navbar-button" onClick={handleOpening}>
-            <i className="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars" />
           </button>
         </div>
         <div className={`navbar-content ${state}`}>
           <ul className="navbar-list">
             <li className="navbar-item">
               <button className="navbar-link">
-                <i className={"fa-solid fa-briefcase"}></i>
+                <i className={"fa-solid fa-briefcase"} />
                 <span>My Work</span>
               </button>
             </li>
             <li className="navbar-item">
               <button className="navbar-link">
-                <i className={"fa-solid fa-diagram-project"}></i>
+                <i className={"fa-solid fa-diagram-project"} />
                 <span>My Projects</span>
               </button>
             </li>
             <li className="navbar-item">
               <button className="navbar-link">
-                <i className="fa-solid fa-address-book"></i>
+                <i className="fa-solid fa-address-book" />
                 <span>Contact</span>
               </button>
             </li>
