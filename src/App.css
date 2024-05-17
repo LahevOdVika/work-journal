@@ -1,5 +1,5 @@
 :root {
-  --dark: #14181B;
+  --dark: #14181b;
   --navbar-dark: #101315;
   --color: #c5bfbf;
   --button-basic: #202020;
@@ -57,7 +57,7 @@ a {
   display: block;
 }
 .navbar-link span {
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 .navbar-button {
   border: none;
