@@ -3,7 +3,6 @@ import { useState } from "react";
 export const Navbar = () => {
   const [state, setState] = useState("closed");
 
-  /* skipcq */
   function handleOpening() {
     if (state === "closed") {
       setState("open");
@@ -18,6 +17,7 @@ export const Navbar = () => {
         <a href="/" className="navbar-button">
           <i className="fa-solid fa-house" />
         </a>
+        {/* skipcq */}
         <button type="button" className="navbar-button" onClick={handleOpening}>
           <i className="fa-solid fa-bars" />
         </button>
