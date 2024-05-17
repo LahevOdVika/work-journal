@@ -2,9 +2,7 @@ import "./App.css";
 import Navbar from "./modules/Navbar.jsx";
 
 function App() {
-  return (
-      <Navbar />
-  );
+  return <Navbar />;
 }
 
 export default App;
