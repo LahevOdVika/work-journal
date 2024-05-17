@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 
 export const Navbar = () => {
   const [state, setState] = useState("closed");
@@ -10,9 +10,9 @@ export const Navbar = () => {
     } else {
       setState("closed");
     }
-    }
+  }
 
-    return (
+  return (
     <div className="navbar">
       <div className={"navbar-controls"}>
         <a href="/" className="navbar-button">
